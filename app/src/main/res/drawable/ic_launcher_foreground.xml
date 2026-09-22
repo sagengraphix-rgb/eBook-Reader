@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Open book pages left and right (centered within 66dp safe zone: x 21 to 87, y 21 to 87) -->
+    <!-- Left page -->
+    <path
+        android:fillColor="#FDFBF7"
+        android:pathData="M52,35 C44,32 34,32 26,35 C24.5,35.6 24,36.8 24,38.3 L24,72 C24,73 25,74 26,73.6 C34,70.8 43,71 52,74 Z" />
+    <!-- Right page -->
+    <path
+        android:fillColor="#F4EDE4"
+        android:pathData="M56,35 C64,32 74,32 82,35 C83.5,35.6 84,36.8 84,38.3 L84,72 C84,73 83,74 82,73.6 C74,70.8 65,71 56,74 Z" />
+    <!-- Book spine / shadow -->
+    <path
+        android:fillColor="#D7C4B2"
+        android:pathData="M52,35 L56,35 L56,74 L52,74 Z" />
+    <!-- Bookmark ribbon in amber gold -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M51,32 L57,32 L57,54 L54,51 L51,54 Z" />
+    <!-- Subtle lines simulating text lines on left page -->
+    <path
+        android:fillColor="#E2D1C1"
+        android:pathData="M30,42 L47,42 A1,1 0 0 1 47,44 L30,44 A1,1 0 0 1 30,42 Z" />
+    <path
+        android:fillColor="#E2D1C1"
+        android:pathData="M30,48 L46,48 A1,1 0 0 1 46,50 L30,50 A1,1 0 0 1 30,48 Z" />
+    <path
+        android:fillColor="#E2D1C1"
+        android:pathData="M30,54 L44,54 A1,1 0 0 1 44,56 L30,56 A1,1 0 0 1 30,54 Z" />
+    <!-- Subtle lines simulating text lines on right page -->
+    <path
+        android:fillColor="#D8C4B2"
+        android:pathData="M61,42 L78,42 A1,1 0 0 1 78,44 L61,44 A1,1 0 0 1 61,42 Z" />
+    <path
+        android:fillColor="#D8C4B2"
+        android:pathData="M61,48 L76,48 A1,1 0 0 1 76,50 L61,50 A1,1 0 0 1 61,48 Z" />
+    <path
+        android:fillColor="#D8C4B2"
+        android:pathData="M61,54 L74,54 A1,1 0 0 1 74,56 L61,56 A1,1 0 0 1 61,54 Z" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "ReadNest",
+  "description": "A modern, minimalist digital eBook reader to import, organize, and read eBooks with customizable typography, themes, annotations, and statistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
